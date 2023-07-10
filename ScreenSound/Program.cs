@@ -44,7 +44,6 @@ void ExibirOpcoesDoMenu()
     Console.WriteLine("Digite 5 para avaliar um álbum");
     Console.WriteLine("Digite 6 para exibir os detalhes de uma banda");
     Console.WriteLine("Digite -1 para sair");
-
     Console.Write("\nDigite a sua opção: ");
     string opcaoEscolhida = Console.ReadLine()!;
     int opcaoEscolhidaNumerica = int.Parse(opcaoEscolhida);
